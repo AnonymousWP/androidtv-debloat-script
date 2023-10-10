@@ -4,7 +4,7 @@ DEFAULT='\033[0m';
 YELLOW='\033[1;33m';
 CYAN='\033[0;36m';
 
-tv_local_ip='your tv local ip';
+read -p "Enter the TV's local IP address: " tv_local_ip
 
 echo "[🔌] Disconnecting from ADB in case is connected somewhere else";
 adb disconnect;
@@ -15,12 +15,12 @@ adb connect $tv_local_ip:5555 || echo " " && echo "[❗] Please check the TV, en
 adb wait-for-device;
 echo " ";
 
-secs=$((3));
+secs=3
 while [ $secs -gt 0 ]; do
-    printf "\r[⌛] Starting to purge the bloated apps in ${YELLOW}$secs${DEFAULT} seconds...";
-    sleep 1;
-    : $((secs--));
-done;
+    printf "\r[⌛] Starting to purge the bloated apps in ${YELLOW}$secs${DEFAULT} seconds..."
+    sleep 1
+    secs=$((secs - 1))
+done
 
 echo " ";
 echo " ";
