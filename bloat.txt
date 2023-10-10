@@ -1,3 +1,7 @@
 com.miui.tv.analytics
 com.google.android.tvrecommendations
 com.xiaomi.android.tvsetup.partnercustomizer
+com.mitv.tvhome.atv
+com.mitv.tvhome.michannel
+com.mitv.tvhome.mitvplus
+com.xiaomi.android.tvsetup.partnercustomizer
