@@ -5,3 +5,5 @@ com.mitv.tvhome.atv
 com.mitv.tvhome.michannel
 com.mitv.tvhome.mitvplus
 com.xiaomi.android.tvsetup.partnercustomizer
+com.xiaomi.statistic
+com.netflix.ninja
