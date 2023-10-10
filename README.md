@@ -4,9 +4,9 @@
 
 ## Download ADB
 
-* Make sure you have ADB on your machine first: [See here](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+* Make sure you have ADB on your machine first: [See here](<https://www.xda-developers.com/install-adb-windows-macos-linux/>)
 
-# How to run
+## How to run
 
 * Clone this repo
 * First you need to connect to your Android TV using the command below
